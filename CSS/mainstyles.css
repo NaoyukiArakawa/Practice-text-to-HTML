@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    font-family: "proxima-nova", sans-serif;
+    font-size: 12px;
+    font: weight 300;
+    background-color: #fff;
+    overflow: scroll;
+}
+
+header{
+    position:fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 70px;
+    z-index: 500;
+    background-color: #fff;
+    text-align: center;
+}
+
+header .trigger{
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    position: relative;
+    z-index: 102;    
+}
+
+header .logo{
+    height: auto;
+    margin: auto;
+}
+
+header .trigger .logo{
+    width: 70%;
+    margin-left: 2%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+header .trigger .logo img{
+    width: 70px;
+    height: 70px;
+}
+
+a img{
+    border: 0;
+    display: block;
+}
+
+header .trigger .menuBtn{
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px;
+    float: right;
+    margin-right: 2%;
+    margin-top: 28px;
+    cursor: pointer;
+    -moz-transform: rotate(-45deg);
+    -moz-transition: 3s;
+}
+
+header .trigger .menuBtn .line{
+    position: relative;
+    top: 0px;
+    right: 0px;
+    display: block;
+    width: 100%;
+    height: 2px;
+    margin-bottom: 5px;
+    background-color: #000;
+}
+
+header .menu ul{
+    text-align: center;
+    list-style-type: none;
+    display: inline-block;
+    vertical-align: middle;
+    width: 90%;
+    margin: 110px auto 0px auto;
+}
+
+header nav ul li{
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+main{
+    position: relative;
+    min-height: 100%;
+    margin-top: 71px;
+    margin-bottom: 80px;
+}
+
+section{
+    padding-top: 150px;
+    padding-bottom: 90px;
+}
+
+.overview .col1, .overview .col2{
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    margin: 0px auto 30px;
+}
+
+.bioPic{
+    width: 35%;
+    height: auto;
+    margin-right: 5%;
+    border-radius: 20%;
+}
+
+.overview .col1 .inner{
+    width: 60%;
+}
+
+.skills {
+    border-top: 1px solid #d7d7d7;
+    border-bottom: 1px solid #d7d7d7;
+    padding: 23px 5% 11px 5%;
+}
+
+.v_top{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 4px;
+}
+
+.overview main section h1{
+    color: ;
+    font-weight: 300;
+    line-height: 1.6;
+    padding-bottom: 1.5em;
+    letter-spacing: 0.06em;
+}
+
+footer{
+    background-color:#000;
+    color: #fff;
+}
+
+footer .inner{
+    position: relative;
+    width: 100%;
+    height: 80px;
+}
+
+footer ul{
+    position: absolute;
+    top: 35px;
+    left: 2%;
+    list-style-type: none;
+    text-align: left;
+    display: inline-block;
+}
+
+footer ul li{
+    margin-right: 16px;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: .05pm;
+}
+
+footer p{
+    position: absolute;
+    top: 35px;
+    right: 2%;
+    letter-spacing: 0;
+    font-size: 12px;
+    color: #969696;
+}
+
+.v_middle{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+a, a:link{
+    text-decoration: none;
+    color: red;
+}
